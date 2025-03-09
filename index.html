@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Signup Form</h2>
+        <form id="signupForm">
+            <label>First Name:</label>
+            <input type="text" id="firstName" required>
+            
+            <label>Last Name:</label>
+            <input type="text" id="lastName" required>
+
+            <label>Email:</label>
+            <input type="email" id="email" required>
+
+            <label>Date of Birth:</label>
+            <input type="date" id="dob" required>
+
+            <label>Age:</label>
+            <input type="number" id="age" required>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+
+            <label>Phone Number:</label>
+            <input type="text" id="phone" required>
+
+            <label>Address:</label>
+            <textarea id="address" required></textarea>
+
+            <button type="submit">Signup</button>
+        </form>
+    </div>
+</body>
+</html>
